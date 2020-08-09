@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const prefix = "^^";
 client.on("ready", message => {
     console.log('bot => ok')
-})
+});
     
     client.on("message", message => {
     if(message.content === `${prefix}ping`) {
@@ -11,7 +11,7 @@ client.on("ready", message => {
     }
     
     if(message.content === `^^help`)
-        message.channel.send(`salut je m'appelle koya`)
+        message.channel.send('salut je suis koya')
     }
  })
 client.login(process.env.TOKEN);
