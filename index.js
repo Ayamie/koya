@@ -11,8 +11,8 @@ client.on("ready", message => {
     if(message.content === `${prefix}ping`) {
         message.channel.send(`🏓 pong - ${client.ws.ping}`)
         
-    if(message.content === `^^help`)
-        message.channel.send('salut je suis koya')
+    if(message.content === `^^help`){
+        message.channel.send('salut je suis koya');
     }
 })
 client.login(process.env.TOKEN);
