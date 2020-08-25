@@ -58,7 +58,7 @@ message.channel.send(embed)
  
 }        
         
-if (message.content === `?config`) {
+if (message.content === `^^config`) {
 let embed = new Discord.MessageEmbed()
 .setTitle('hello-_-')
 .setDescription('page1/1')
