@@ -57,5 +57,20 @@ let embed = new Discord.MessageEmbed()
 message.channel.send(embed)
  
 }        
+        
+if (message.content === `?config`) {
+let embed = new Discord.MessageEmbed()
+.setTitle('hello-_-')
+.setDescription('page1/1')
+.addFields(
+{name : '1. prefix ', value: 'change le prefix du bot', inline: true },
+{name : '2. invite', value: 'cree une invitation du serveur ', inline: true },
+{name : '3. status', value: 'change le status du bot', inline: true },
+) 
+.setColor('') 
+.setFooter('config');
+
+message.channel.send(embed).then(message.react('✅'));
+}     
 })
 client.login(process.env.TOKEN);
