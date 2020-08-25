@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const prefix = "^^";
 client.on("ready", message => {
     console.log('bot => ok');
-    
+    client.user.setActivity('developper mon bot',{type: 'PLAYING'});
 })
 
     
