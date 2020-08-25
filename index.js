@@ -67,6 +67,7 @@ let embed = new Discord.MessageEmbed()
 {name : '2. invite', value: 'cree une invitation du serveur ', inline: true },
 {name : '3. status', value: 'change le status du bot', inline: true },
 ) 
+.setThumbnail('https://cdn.discordapp.com/attachments/725873590427189305/747626973576167514/tenor-8.gif')
 .setColor('') 
 .setFooter('config');
 
